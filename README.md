@@ -1,5 +1,9 @@
 # My Each
-
+def my_each
+  i = 0
+  
+  while i <
+end
 ## Objectives
 
 1. Define a method that uses `yield` and a `while` loop to pass each element of a collection to a block.
