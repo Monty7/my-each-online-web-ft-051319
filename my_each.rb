@@ -10,5 +10,5 @@ end
 
 bunnies = ['easter', 'christmas', 'forest']
 my_each(bunnies) do |bunny|
-  puts bunny
+  bunny
 end
