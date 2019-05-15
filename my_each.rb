@@ -8,7 +8,7 @@ def my_each(array)
   array
 end
 
-
-my_each(array) do |i|
-  puts num
+bunnies = ['easter', 'christmas', 'forest']
+my_each(bunnies) do |bunny|
+  puts bunny
 end
