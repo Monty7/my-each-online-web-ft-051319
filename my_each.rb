@@ -5,8 +5,9 @@ def my_each(array)
     yield(array[i])
     i = i + 1
   end
+  array
 end
-
-my_each(array) do |i|
-  puts
+collection = [2, 4, 6, 8]
+my_each(collection) do |num|
+  puts num
 end
