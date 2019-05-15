@@ -7,7 +7,8 @@ def my_each(array)
   end
   array
 end
-collection = [2, 4, 6, 8]
-my_each(collection) do |num|
+
+
+my_each(array) do |i|
   puts num
 end
